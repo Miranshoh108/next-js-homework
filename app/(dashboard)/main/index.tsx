@@ -6,33 +6,32 @@ const Main = () => {
   // Listen Now ma'lumotlari (ko'proq kartochka qo'shamiz)
   const listenNowPlaylists = [
     { title: "React Rendezvous", artist: "Ethan Byte", img: "/card.png" },
-    { title: "Async Awakenings", artist: "Nina Netcode", img: "/card.png" },
+    { title: "Async Awakenings", artist: "Nina Netcode", img: "/card2.png" },
     { title: "The Art of Reusability", artist: "Lena Logic", img: "/card.png" },
-    { title: "Stateful Symphony", artist: "Beth Binarr", img: "/card.png" },
+    { title: "Stateful Symphony", artist: "Beth Binarr", img: "/card2.png" },
     { title: "Dynamic Beats", artist: "Alex Code", img: "/card.png" },
-    { title: "Code Symphony", artist: "Sam Dev", img: "/card.png" },
+    { title: "Code Symphony", artist: "Sam Dev", img: "/card2.png" },
     { title: "Tech Rhythms", artist: "Mia Tech", img: "/card.png" },
-    { title: "Digital Flow", artist: "John Dev", img: "/card.png" },
+    { title: "Digital Flow", artist: "John Dev", img: "/card2.png" },
     { title: "Sync Beats", artist: "Sara Code", img: "/card.png" },
   ];
 
   // Made for You ma'lumotlari (ko'proq kartochka qo'shamiz)
   const madeForYouPlaylists = [
     { title: "Thinking Components", artist: "Lena Loaic", img: "/card2.png" },
-    { title: "Functional Fury", artist: "Beth Binarr", img: "/card2.png" },
+    { title: "Functional Fury", artist: "Beth Binarr", img: "/card.png" },
     { title: "React Rendezvous", artist: "Ethan Byte", img: "/card2.png" },
-    { title: "Stateful Symphony", artist: "Beth Binarr", img: "/card2.png" },
+    { title: "Stateful Symphony", artist: "Beth Binarr", img: "/card.png" },
     { title: "Async Awakenings", artist: "Nina Netcode", img: "/card2.png" },
-    { title: "The Art", artist: "Nina Netcode", img: "/card2.png" },
+    { title: "The Art", artist: "Nina Netcode", img: "/card.png" },
     { title: "React Rendezvous", artist: "Ethan Byte", img: "/card2.png" },
-    { title: "Code Harmony", artist: "Alex Dev", img: "/card2.png" },
+    { title: "Code Harmony", artist: "Alex Dev", img: "/card.png" },
     { title: "Tech Pulse", artist: "Mia Tech", img: "/card2.png" },
-    { title: "Logic Beats", artist: "John Logic", img: "/card2.png" },
+    { title: "Logic Beats", artist: "John Logic", img: "/card.png" },
   ];
 
   return (
     <div className="p-3">
-      {/* Tabs Section */}
       <div className="  mb-6 max-[400px]:hidden">
         <nav className="flex space-x-4">
           <a
@@ -90,13 +89,11 @@ const Main = () => {
         </div>
       </div>
 
-      {/* Made for You Section */}
       <div className="mb-6">
         <h1 className="text-2xl font-bold">Made for You</h1>
         <p className="text-gray-500">Your personal playlists. Updated daily.</p>
       </div>
 
-      {/* Made for You Playlist Cards with Horizontal Scroll */}
       <div className="relative">
       <div className="flex space-x-4 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 pb-4 max-w-[calc(100vw-306px)] max-[900px]:max-w-full">
 
